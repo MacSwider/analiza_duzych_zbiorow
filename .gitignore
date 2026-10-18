@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Dane labów — generowane / pobierane (zostawiamy tylko małe seed CSV)
+data/people_*.json
+data/expired/
+data/apache_parquet/
+data/adults_parquet/
+data/instagram/
+data/Apache_2k.log
+data/zamowienia_missing.csv
+lab02/data/zamowienia_missing.csv
+
+# Artefakty Dask
+**/dask-worker-space/
+**/dask-scratch-space/
